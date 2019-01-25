@@ -5,6 +5,7 @@ from sklearn.metrics import r2_score
 from sklearn.preprocessing import PolynomialFeatures
 import os
 
+from multiprocessing import Pool #Process
 
 def dataframe_splitter(dataframe,sections):
 	'''
